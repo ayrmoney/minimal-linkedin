@@ -1,0 +1,152 @@
+/* All styles are now applied only when extension is enabled */
+
+body[data-minimal-linkedin="enabled"] .scaffold-layout__sidebar {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .scaffold-layout__aside {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-nav__nav > ul > li:not(:first-child):not(:nth-child(2)) {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-nav__nav > ul > li:nth-child(1),
+body[data-minimal-linkedin="enabled"] .global-nav__nav > ul > li:nth-child(2) {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-nav__branding {
+  display: flex !important;
+}
+
+body[data-minimal-linkedin="enabled"] .search-global-typeahead {
+  display: flex !important;
+}
+
+body[data-minimal-linkedin="enabled"] .msg-overlay-container {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-footer {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] {
+  background-color: #f3f2ef !important;
+}
+
+body[data-minimal-linkedin="enabled"] .scaffold-finite-scroll__content {
+  margin-top: 32px !important; /* Increased from 24px to create more space */
+}
+
+body[data-minimal-linkedin="enabled"] .feed-shared-update-v2__control-overflow,
+body[data-minimal-linkedin="enabled"] .scaffold-finite-scroll {
+  margin-top: 16px !important; 
+}
+
+body[data-minimal-linkedin="enabled"] .share-box-feed-entry {
+  margin-top: 32px !important;
+}
+
+body[data-minimal-linkedin="enabled"] .premium-upsell-link,
+body[data-minimal-linkedin="enabled"] .feed-shared-premium-upsell-button,
+body[data-minimal-linkedin="enabled"] .premium-upsell-container,
+body[data-minimal-linkedin="enabled"] .premium-upsell,
+body[data-minimal-linkedin="enabled"] .premium-upsell-card,
+body[data-minimal-linkedin="enabled"] [data-test-id*="premium"],
+body[data-minimal-linkedin="enabled"] [data-control-name*="premium_upsell"],
+body[data-minimal-linkedin="enabled"] .feed-shared-premium-upsell,
+body[data-minimal-linkedin="enabled"] .ad-banner,
+body[data-minimal-linkedin="enabled"] div[data-test-id="premium-products-upsell"] {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .feed-follows-module,
+body[data-minimal-linkedin="enabled"] .ad-banner-container,
+body[data-minimal-linkedin="enabled"] .feed-shared-news-module,
+body[data-minimal-linkedin="enabled"] .feed-shared-news-module__container,
+body[data-minimal-linkedin="enabled"] .feed-shared-update-v2--minimal, 
+body[data-minimal-linkedin="enabled"] .feed-shared-update-v2,
+body[data-minimal-linkedin="enabled"] .update-components-actor,
+body[data-minimal-linkedin="enabled"] .update-components-text,
+body[data-minimal-linkedin="enabled"] div[data-test-id="feed-shared-update-v2"] {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .feed-new-update-pill,
+body[data-minimal-linkedin="enabled"] .feed-new-update-pill__new-update-button,
+body[data-minimal-linkedin="enabled"] div[class*="feed-new-update-pill"],
+body[data-minimal-linkedin="enabled"] button.artdeco-button.feed-new-update-pill__new-update-button {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Keep the post creation box visible but use LinkedIn's original styling */
+/* body[data-minimal-linkedin="enabled"] .share-box-feed-entry__closed-share-box {
+  display: block !important;
+} */
+
+body[data-minimal-linkedin="enabled"] .feed-shared-update-v2,
+body[data-minimal-linkedin="enabled"] .occludable-update,
+body[data-minimal-linkedin="enabled"] .feed-shared-update,
+body[data-minimal-linkedin="enabled"] .feed-shared-update--e2e {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .share-box-feed-entry__closed-share-box [data-test-id*="premium"],
+body[data-minimal-linkedin="enabled"] .share-box-feed-entry__closed-share-box .premium-upsell,
+body[data-minimal-linkedin="enabled"] .share-box-feed-entry__closed-share-box .premium-prompt,
+body[data-minimal-linkedin="enabled"] .share-box-feed-entry__closed-share-box [data-control-name*="premium"] {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .artdeco-dropdown[class*="artdeco-dropdown--placement-bottom"],
+body[data-minimal-linkedin="enabled"] div[class*="artdeco-dropdown--placement-bottom"],
+body[data-minimal-linkedin="enabled"] .mb2.artdeco-dropdown,
+body[data-minimal-linkedin="enabled"] button[aria-label*="Sort order dropdown"],
+body[data-minimal-linkedin="enabled"] div.mb2.artdeco-dropdown.artdeco-dropdown--placement-bottom {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] button[data-control-name="show_more_updates"],
+body[data-minimal-linkedin="enabled"] .scaffold-finite-scroll__load-button,
+body[data-minimal-linkedin="enabled"] button[data-test-id*="feed-load-more"],
+body[data-minimal-linkedin="enabled"] div[class*="scaffold-finite-scroll"] > button,
+body[data-minimal-linkedin="enabled"] .feed-shared-update-v2__show-more-button {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-nav {
+  margin-bottom: 24px !important; 
+  height: 52px !important;
+}
+
+body[data-minimal-linkedin="enabled"] .global-nav + * {
+  margin-top: 24px !important;
+}
+
+body[data-minimal-linkedin="enabled"] .feed-loading-animation,
+body[data-minimal-linkedin="enabled"] .feed-shared-loader,
+body[data-minimal-linkedin="enabled"] .artdeco-loader.artdeco-loader--small,
+body[data-minimal-linkedin="enabled"] .feed-shared__loader,
+body[data-minimal-linkedin="enabled"] .feed-shared-loader-container,
+body[data-minimal-linkedin="enabled"] div[class*="feed-shared"][class*="loader"],
+body[data-minimal-linkedin="enabled"] div[role="feed"] .artdeco-loader,
+body[data-minimal-linkedin="enabled"] .scaffold-finite-scroll__content .artdeco-loader {
+  display: none !important;
+}
+
+body[data-minimal-linkedin="enabled"] .artdeco-loader--small .artdeco-loader__bars,
+body[data-minimal-linkedin="enabled"] .artdeco-loader__bars {
+  display: none !important;
+}
+
+/* Do not hide the main page loader even when extension is enabled */
+.authentication-outlet .artdeco-loader,
+#global-content > .artdeco-loader,
+body > .artdeco-loader {
+  display: block !important;
+}
