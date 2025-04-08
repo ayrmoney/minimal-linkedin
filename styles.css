@@ -33,10 +33,6 @@ body[data-minimal-linkedin="enabled"] .global-footer {
   display: none !important;
 }
 
-body[data-minimal-linkedin="enabled"] {
-  background-color: #f3f2ef !important;
-}
-
 body[data-minimal-linkedin="enabled"] .scaffold-finite-scroll__content {
   margin-top: 32px !important; /* Increased from 24px to create more space */
 }
