@@ -1,5 +1,7 @@
 # Minimal LinkedIn
 
+![screenshot](https://github.com/user-attachments/assets/807c2ab4-ab82-4066-805a-abe453e18ad6)
+
 A Chrome extension that simplifies the LinkedIn interface by hiding most UI elements, leaving only the essential parts:
 - The LinkedIn logo
 - The search bar
